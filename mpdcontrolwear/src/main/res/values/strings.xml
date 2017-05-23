@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MPD Control Wear</string>
+
+    <string name="btn_shuffle">Shuffle</string>
+    <string name="btn_repeat">Repeat</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_volup">Volume up</string>
+    <string name="btn_voldown">Volume down</string>
+    <string name="btn_mute">Mute</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+        <item name="colorPrimary">@color/holo_button_highlight</item>
+        <item name="colorPrimaryDark">@color/holo_button_highlight_low</item>
+    </style>
+</resources>

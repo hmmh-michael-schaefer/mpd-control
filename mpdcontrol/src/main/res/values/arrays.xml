@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_empty"></string-array>
+
+    <string-array name="array_background">
+        <item>kein Hintergrund</item>
+        <item>Cover - normal</item>
+        <item>Cover - Blur</item>
+        <item>Cover - Pixel</item>
+    </string-array>
+
+    <string-array name="array_background_values">
+        <item>no_background</item>
+        <item>cover_normal</item>
+        <item>cover_blur</item>
+        <item>cover_pixel</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,4 @@
+include ':actionbarpulltorefresh', ':mpdcontrolwear'
+include ':dragsortlistview'
+include ':jmdns'
+include ':mpdcontrol'

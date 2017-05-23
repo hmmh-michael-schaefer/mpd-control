@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="de.sir4gt10.mpdcontrol.MainActivity" tools:deviceIds="wear_square">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="MPD Control Wear"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/buttons_top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/playerbutton_height"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/shuffle"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_shuffle_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="Shuffle" />
+
+        <ImageButton
+            android:id="@+id/prev"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_skip_previous_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="Previous" />
+
+        <ImageButton
+            android:id="@+id/playpause"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_play_arrow_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="Play" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_bottom_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/playerbutton_height"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/stop"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_stop_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="Stop" />
+
+        <ImageButton
+            android:id="@+id/next"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_skip_next_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="Next" />
+
+        <ImageButton
+            android:id="@+id/repeat"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_loop_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="Repeat" />
+    </LinearLayout>
+</LinearLayout>

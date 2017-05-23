@@ -1,0 +1,173 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From actionbarpulltorefresh:
+* ActionBarPullToRefresh.java
+* DefaultHeaderTransformer.java
+* EnvironmentDelegate.java
+* HeaderTransformer.java
+* InstanceCreationUtils.java
+* Options.java
+* PullToRefreshAttacher.java
+* PullToRefreshLayout.java
+* SmoothProgressBar.java
+* SmoothProgressDrawable.java
+* listeners/
+* listeners/HeaderViewListener.java
+* listeners/OnRefreshListener.java
+* sdk/
+* sdk/Compat.java
+* sdk/CompatBase.java
+* sdk/CompatV11.java
+* sdk/CompatV16.java
+* viewdelegates/
+* viewdelegates/AbsListViewDelegate.java
+* viewdelegates/ScrollYDelegate.java
+* viewdelegates/ViewDelegate.java
+* viewdelegates/WebViewDelegate.java
+From dragsortlistview:
+* DragSortController.java
+* DragSortCursorAdapter.java
+* DragSortItemView.java
+* DragSortItemViewCheckable.java
+* DragSortListView.java
+* ResourceDragSortCursorAdapter.java
+* SimpleDragSortCursorAdapter.java
+* SimpleFloatViewManager.java
+From jmdns:
+* JmDNS.java
+* JmmDNS.java
+* NetworkTopologyDiscovery.java
+* NetworkTopologyEvent.java
+* NetworkTopologyListener.java
+* ServiceEvent.java
+* ServiceInfo.java
+* ServiceListener.java
+* ServiceTypeListener.java
+* impl/
+* impl/DNSCache.java
+* impl/DNSEntry.java
+* impl/DNSIncoming.java
+* impl/DNSListener.java
+* impl/DNSMessage.java
+* impl/DNSOutgoing.java
+* impl/DNSQuestion.java
+* impl/DNSRecord.java
+* impl/DNSStatefulObject.java
+* impl/DNSTaskStarter.java
+* impl/HostInfo.java
+* impl/JmDNSImpl.java
+* impl/JmmDNSImpl.java
+* impl/ListenerStatus.java
+* impl/NameRegister.java
+* impl/NetworkTopologyDiscoveryImpl.java
+* impl/NetworkTopologyEventImpl.java
+* impl/ServiceEventImpl.java
+* impl/ServiceInfoImpl.java
+* impl/SocketListener.java
+* impl/constants/
+* impl/constants/DNSConstants.java
+* impl/constants/DNSLabel.java
+* impl/constants/DNSOperationCode.java
+* impl/constants/DNSOptionCode.java
+* impl/constants/DNSRecordClass.java
+* impl/constants/DNSRecordType.java
+* impl/constants/DNSResultCode.java
+* impl/constants/DNSState.java
+* impl/tasks/
+* impl/tasks/DNSTask.java
+* impl/tasks/RecordReaper.java
+* impl/tasks/Responder.java
+* impl/tasks/resolver/
+* impl/tasks/resolver/DNSResolverTask.java
+* impl/tasks/resolver/ServiceInfoResolver.java
+* impl/tasks/resolver/ServiceResolver.java
+* impl/tasks/resolver/TypeResolver.java
+* impl/tasks/state/
+* impl/tasks/state/Announcer.java
+* impl/tasks/state/Canceler.java
+* impl/tasks/state/DNSStateTask.java
+* impl/tasks/state/Prober.java
+* impl/tasks/state/Renewer.java
+* impl/util/
+* impl/util/NamedThreadFactory.java
+From mpd-control:
+* .DS_Store
+* .gitignore
+* .idea/
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/mpd-control.iml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* LICENSE
+* README.md
+* STYLE
+* TOTO
+* _build.sh
+* ant.properties
+* build.xml
+* custom_rules.xml
+* icon.png
+* private/
+* private/logo128.png
+* private/logo256.png
+* private/logo512.png
+* private/logo64.png
+* private/mpc-android-cap1.png
+* private/mpc-android-cap2.png
+* private/mpc-android-cap3.png
+* private/mpc-android-cap4.png
+* private/mpc-android-cap5.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => mpdcontrol/src/main/AndroidManifest.xml
+* lint.xml => mpdcontrol/lint.xml
+* res/ => mpdcontrol/src/main/res/
+* src/ => mpdcontrol/src/main/java/
+* src/.DS_Store => mpdcontrol/src/main/resources/.DS_Store
+* src/org/.DS_Store => mpdcontrol/src/main/resources/org/.DS_Store
+* src/de.sir4gt10..DS_Store => mpdcontrol/src/main/resources/de.sir4gt10..DS_Store
+* src/de.sir4gt10.mpdcontrol/.DS_Store => mpdcontrol/src/main/resources/de.sir4gt10.mpdcontrol/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

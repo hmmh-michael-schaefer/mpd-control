@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="playing_text_color_primary">#ff000000</color>
+    <color name="playing_text_color_secondary">#ff808080</color>
+
+    <color name="main_background_color">#161616</color>
+    <color name="actionbar_background_color">#0a0a0a</color>
+
+    <color name="list_item_horizontal_separator">#cccccc</color>
+    
+    <color name="holo_button_highlight">#9933b5e5</color>
+    <color name="holo_button_highlight_low">#5533b5e5</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="list_view_item_color1">#f5f5f5</color>
+    <color name="list_view_item_color2">#f5f5f5</color>
+
+    <color name="default_progress_bar_color">#FF33B5E5</color>
+
+</resources>

@@ -1,0 +1,32 @@
+<android.support.v4.view.ViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/gradient" >
+
+    <fragment
+		android:id="@+id/tab_playing"
+		android:name="de.sir4gt10.mpdcontrol.fragments.PlayingFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+    <fragment
+		android:id="@+id/tab_playlist"
+		android:name="de.sir4gt10.mpdcontrol.fragments.PlaylistFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+    <fragment
+		android:id="@+id/tab_library"
+		android:name="de.sir4gt10.mpdcontrol.fragments.LibraryFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+    <fragment
+		android:id="@+id/tab_playlists"
+		android:name="de.sir4gt10.mpdcontrol.fragments.PlaylistsFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+</android.support.v4.view.ViewPager>

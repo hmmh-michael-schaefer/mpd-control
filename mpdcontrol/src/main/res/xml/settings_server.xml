@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<Preference
+	    android:key="server_connections"
+		android:summary="@string/settings_server_connections_desc"
+		android:title="@string/settings_server_connections" >
+	</Preference>
+
+	<MultiSelectListPreference
+	    android:dialogTitle="@string/settings_server_output_desc"
+		android:entries="@array/array_empty"
+		android:entryValues="@array/array_empty"
+		android:key="server_outputs"
+		android:summary="@string/settings_server_output_desc"
+		android:title="@string/settings_server_output" >
+	</MultiSelectListPreference>
+
+	<Preference
+		android:key="server_update"
+		android:summary="@string/settings_server_update_desc"
+		android:title="@string/settings_server_update" >
+	</Preference>
+
+    <CheckBoxPreference
+        android:key="@string/preferences_mpd_local_cache"
+        android:persistent="true"
+		android:summary="@string/settings_server_cache_desc"
+        android:title="@string/settings_server_cache" />
+
+	<Preference
+		android:key="server_infos"
+		android:summary="@string/settings_server_info_desc"
+		android:title="@string/settings_server_info" >
+	</Preference>
+
+</PreferenceScreen>

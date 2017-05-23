@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="playerbuttonSmall_width">36dip</dimen>
+    <dimen name="playerbuttonSmall_height">36dip</dimen>
+
+    <dimen name="playerbutton_width">48dip</dimen>
+    <dimen name="playerbutton_height">48dip</dimen>
+
+    <dimen name="playerbuttonLarge_width">92dip</dimen>
+    <dimen name="playerbuttonLarge_height">92dip</dimen>
+</resources>

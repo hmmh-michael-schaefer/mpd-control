@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.sir4gt10.mpdcontrol.MainActivity"
+    tools:deviceIds="wear_round"
+    android:orientation="vertical"
+    android:background="@drawable/gradient" >
+
+    <LinearLayout
+        android:id="@+id/buttons_top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/playerbutton_height"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/shuffle"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_shuffle"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_shuffle_white_48dp"
+            android:tint="@color/list_view_item_color1" />
+
+        <ImageButton
+            android:id="@+id/repeat"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_repeat"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_loop_white_48dp"
+            android:tint="@color/list_view_item_color1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_middle_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/playerbuttonLarge_height"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/prev"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_skip_previous_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="@string/btn_previous" />
+
+        <ImageButton
+            android:id="@+id/playpause"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbuttonLarge_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_play_arrow_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="@string/btn_play" />
+
+        <ImageButton
+            android:id="@+id/next"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_skip_next_white_48dp"
+            android:tint="@color/list_view_item_color1"
+            android:contentDescription="@string/btn_next"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_bottom_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/playerbuttonSmall_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/volume_down"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbuttonSmall_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_voldown"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_volume_down_white_48dp"
+            android:tint="@color/list_view_item_color1" />
+
+        <ImageButton
+            android:id="@+id/volume_off"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbuttonSmall_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_mute"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_volume_off_white_48dp"
+            android:tint="@color/list_view_item_color1" />
+
+        <ImageButton
+            android:id="@+id/volume_up"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbuttonSmall_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_volup"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_volume_up_white_48dp"
+            android:tint="@color/list_view_item_color1" />
+
+        <!--
+        <ImageButton
+            android:id="@+id/stop"
+            style="@style/PlayerButton"
+            android:layout_width="@dimen/playerbutton_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_stop_white_48dp"
+            android:tint="@color/list_view_item_color1" />
+            -->
+
+    </LinearLayout>
+
+</RelativeLayout>
